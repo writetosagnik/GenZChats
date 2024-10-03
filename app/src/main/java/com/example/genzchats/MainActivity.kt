@@ -18,7 +18,6 @@ import com.example.genzchats.ui.theme.GenZChatsTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         val chatViewModel=ViewModelProvider(this)[ChatViewModel::class.java]
         setContent {
 
